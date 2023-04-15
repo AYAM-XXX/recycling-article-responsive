@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Open+Sans:ital,wght@1,700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Open Sans', sans-serif;
+  background:  #F0F8FF;
+  overflow-x:hidden;
+}
+header{
+  width:100%;
+  width:100%;
+  min-height:7vh;
+  display:flex;
+  position:fixed;
+  justify-content:center;
+  align-items:center;
+  background-color:#00FF00;
+}
+header h1{
+  color:#1C1C1C;
+  background-color:#00FF00;
+  font-weight:500;
+  letter-spacing:4px;
+}
+header img{
+  background-color:#00FF00;
+  width:45px;
+  height:45px;
+}
+main{
+  display:flex;
+  max-width:100%;
+  min-height:10vh;
+  padding:20vh 40px;
+  flex-wrap: wrap;
+  flex-direction:center;
+  justify-content:space-around;
+}
+main h1{
+  justify-content:center;
+  color:#006400;
+  font-size:2.5em;  
+  margin:0 10%;
+}
+.art-1{
+  margin-left:5vw;
+  margin-top:10vh;
+  width:40%;
+  font-size:1.3em;
+  color:#7CFC00;
+  flex-wrap:nowrap;
+}
+.art-1 h2,.art-2 h2,.art-3 h2,.art-4 h2,.art-5 h2{
+  color:#00FF00;
+}
+.img-1{
+  width:40%;
+}
+.img-2{
+  width:40%;
+  margin-top:7vh;
+}
+.img-3{
+  width:40%;
+  margin-top:7vh;
+}
+.img-4{
+  width:40%;
+  margin-top:7vh;
+}
+.img-5{
+  width:40%;
+   margin-top:7vh;
+}
+.art-2{
+  width:40%;
+   margin-top:10vh;
+  font-size:1.3em;
+  color:#7CFC00;
+   flex-wrap:nowrap;
+}
+.art-3{
+  width:40%;
+   margin-top:10vh;
+   font-size:1.3em;
+   color:#7CFC00;
+   flex-wrap:nowrap;
+}
+.art-4{
+  width:40%;
+   margin-top:10vh;
+  font-size:1.3em;
+  color:#7CFC00;
+   flex-wrap:nowrap;
+}
+.art-5{
+  width:40%;
+   margin-top:10vh;
+   font-size:1.3em;
+   color:#7CFC00;
+   flex-wrap:nowrap;
+}
+@media screen and (max-width:900px){
+
+  .art-1,.art-2,.art-3,.art-4,.art-5{
+    width:45%;
+  }
+}
+@media screen and (max-width:700px){
+
+  .art-1,.art-2,.art-3,.art-4,.art-5{
+    width:50%;
+
+  }
+  main{
+    padding:20vh 30px;
+  }
+  main h1{
+  justify-content:center;
+  font-size:2em;  
+  margin:0 10%;
+}
+}
+@media screen and (max-width:600px){
+
+  .art-1,.art-2,.art-3,.art-4,.art-5{
+    width:50%;
+
+  }
+  main{
+    padding:20vh 0;
+  }
+}
+@media screen and (max-width:570px){
+
+  .art-1,.art-2,.art-3,.art-4,.art-5{
+    width:100%;
+  }
+  .img-1,.img-2,.img-3,.img-4,.img-5{
+    width:100%;
+  }
+  main{
+    padding:20vh 10px;
+  }
+  main h1{
+  justify-content:right;
+  font-size:2em;  
+  margin:0 10%;
+}
+.art-1{
+  order:1;
+  margin-left:0;
+}
+.img-1{
+  order:2;
+}
+.art-2{
+  order:3;
+}
+.img-2{
+  order:4;
+}
+.art-3{
+  order:5;
+}
+.img-3{
+  order:6;
+}
+.art-4{
+  order:7;
+}
+.img-4{
+  order:8;
+}
+.art-5{
+  order:9;
+}
+.img-5{
+  order:10;
+}
+}
+@media screen and (max-width:530px){
+  main h1{
+    font-size:2em;
+  }
+}
+@media screen and (max-width:400px){
+  main h1{
+    font-size:2em;
+    justify-content:right;
+  }
+
+}
+@media screen and (max-height:384px){
+  main{
+    padding:30vh 10px;
+  }
+}
+@media screen and (max-height:250px){
+  main{
+    padding:40vh 10px;
+  }
+}
+
